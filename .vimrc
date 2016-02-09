@@ -12,6 +12,7 @@ set number
 
 "Highlight current line
 set cursorline
+highlight Cursorline cterm=bold
 
 "search as characters are entered
 set incsearch
