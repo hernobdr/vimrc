@@ -15,7 +15,7 @@ set cursorline
 highlight Cursorline cterm=bold
 
 "Color Scheme
-colorscheme badwolf
+"colorscheme badwolf
 
 set clipboard=unnamedplus
 
