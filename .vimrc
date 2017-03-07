@@ -55,10 +55,11 @@ let g:pencil_higher_contrast_ui = 1   "0 = low (default), 1 = high contrast
 
 
 "Airline
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'pencil'
+let g:airline_powerline_fonts = 1
 
 syntax on
 
@@ -75,8 +76,6 @@ set number
 "Highlight current line by making it bold
 set cursorline
 highlight Cursorline cterm=bold
-
-set clipboard=unnamedplus
 
 "Spaces & Tabs
 set tabstop=4       " number of visual spaces per TAB
