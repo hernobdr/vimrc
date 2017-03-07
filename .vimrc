@@ -12,6 +12,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 "Plugins go here
 Plugin 'reedes/vim-colors-pencil'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'leafgarland/typescript-vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -49,6 +53,13 @@ filetype plugin indent on    " required
 colo pencil
 let g:pencil_higher_contrast_ui = 1   "0 = low (default), 1 = high contrast
 
+
+"Airline
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'pencil'
+
 syntax on
 
 "Searching
@@ -65,9 +76,6 @@ set number
 set cursorline
 highlight Cursorline cterm=bold
 
-"Color Scheme
-"colorscheme badwolf
-
 set clipboard=unnamedplus
 
 "Spaces & Tabs
@@ -76,4 +84,6 @@ set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 
 set showmatch           " highlight matching [{()}]
+set laststatus=2
+map <Enter> o<Esc>
 
