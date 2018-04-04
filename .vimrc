@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'dietsche/vim-lastplace'
+Plugin 'tpope/vim-sleuth'
 Plugin 'tpope/vim-fugitive'
 
 
